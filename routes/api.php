@@ -24,5 +24,6 @@ Route::get('/product', [ProductController::class,'index']);
 Route::post('/product', [ProductController::class,'create']);
 Route::put('/product/{id}', [ProductController::class,'update']);
 Route::delete('/product/{id}', [ProductController::class,'destroy']);
+// youi
 
 Route::get('/category', [CategoryController::class,'index']);
